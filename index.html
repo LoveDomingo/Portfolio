@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Love Lianne M. Domingo's Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #222;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  header, footer {
+    background: linear-gradient(135deg, #f8a5c2, #6a89cc);
+    color: white;
+    padding: 2rem 1rem;
+  }
+
+  header h1 {
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-bottom: 0.25rem;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+  }
+
+  header h2 {
+    font-weight: 600; /* Make the text bold */
+    font-size: 1.5rem;
+    margin-top: 0.5rem; /* Add some space above */
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.6px;
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin-bottom: 0.2rem;
+  }
+
+  section {
+    max-width: 720px;
+    margin: 2rem auto 3rem;
+    padding: 0 1rem;
+  }
+
+  section h2 {
+    color: #6a89cc;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #f8a5c2;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+  }
+
+  #about p {
+    color: #555;
+    font-weight: 300;
+    font-size: 1.125rem;
+    text-align: center;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffe3f1, #d0e0ff);
+    box-shadow: 0 4px 12px rgba(106, 137, 204, 0.25);
+    color: #222;
+  }
+
+  .project h3 {
+    color: #f06292;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .project p {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #444;
+    max-width: 600px;
+    margin: 0 auto 0.8rem;
+  }
+
+  .project-images {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  .project-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-images img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid #b33951; /* dark pink border */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(248, 165, 194, 0.5);
+  }
+
+  .image-title {
+    color: #b33951;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .project img:not(.project-images img) {
+    max-width: 100%;
+    max-height: 220px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(248, 165, 194, 0.5);
+    margin: 0.4rem auto 0;
+    display: block;
+  }
+
+  #contact {
+    background-color: #ffe3f1; /* light pink background */
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    color: #b33951; /* dark pink text */
+  }
+
+  #contact p, #contact .extra-contact {
+    font-size: 1.1rem;
+    color: #b33951; /* dark pink text for contact section */
+    margin-bottom: 0.6rem;
+  }
+
+  #contact .extra-contact {
+    font-weight: 600;
+  }
+
+  a {
+    color: #007bff; /* blue link color */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  a:hover,
+  a:focus {
+    color: #0056b3; /* darker blue on hover */
+    outline: none;
+  }
+
+  footer p {
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+
+  @media (max-width: 450px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    header h2 {
+      font-size: 1.2rem;
+    }
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+    }
+    .project-images img {
+      width: 130px;
+      height: 130px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+
+
+  <h1>Welcome to My Portfolio</h1>
+  <img src="https://drive.google.com/thumbnail?id=17rf6lsmZ7GDGJCMv9fOoB8aqUMAjm_07&sz=s800" alt="Love Lianne M. Domingo" class="profile-photo" />
+  <h2>I'm Love Lianne M. Domingo</h2> <!-- Moved below the image -->
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Hello! I’m Love Lianne M. Domingo, a student who enjoys learning, leading, and creating.
+    I have a deep interest in entrepreneurship and a passion for activities that allow me to express myself—especially baking, dancing, and singing.
+  </p>
+  
+  <p> My creativity and determination drive me to take on challenges and turn ideas into reality.
+    I proudly served as the Supreme Pupil Government (SPG) President, where I developed strong leadership and communication skills by organizing events and representing student voices.
+    Through my schoolwork, I’ve explored ethical entrepreneurship, teamwork, and the basics of business planning.
+    I also enjoy designing projects that reflect who I am—like my own portfolio website, business concepts, and creative presentations.
+  </p>
+      
+    <p> Every experience helps me grow and become more confident.
+    I dream of building a business that combines creativity and customer experience.
+    With every project I create, I take one step closer to that goal, always learning along the way.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>CakeCraft Studio (Business Idea)</h3>
+    <p>A creative cake business offering dine-in experiences, occasion cakes, and DIY cake decorating. Designed to bring joy and creativity to celebrations.</p>
+    <div class="project-images">
+      <div class="project-image-container">
+        <img src="https://drive.google.com/thumbnail?id=1XhzL1s5xOeyUhVsb-5pW6TuaR4AEiIHp&sz=s800" alt="CakeCraft Studio - Dine-in Experience" />
+        <div class="image-title">CakeCraft Studio - Occasion Cakes</div>
+      </div>
+      <div class="project-image-container">
+        <img src="https://drive.google.com/thumbnail?id=1qWS2M6ZkQlhwIRpnFiG9TbJE7n4GnXlr&sz=s800" alt="CakeCraft Studio - Occasion Cakes" />
+        <div class="image-title">CakeCraft Studio - Dine-In Experience</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>From Streets to Screens</h3>
+    <p>A creative meme showing traditional outdoor games vs. modern mobile games to reflect on technology’s impact on human connection.</p>
+    <div class="project-images" style="justify-content: center;">
+      <div class="project-image-container">
+        <img src="https://drive.google.com/thumbnail?id=1AvE2O9H_vkThGPbc_6MhnL2726KQkxzH&sz=s800" alt="From Streets to Screens" />
+        <div class="image-title">From Streets to Screens</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Egg Challenge</h3>
+    <p>We designed a protective house to protect a raw egg from breaking when dropped. Using simple materials, we applied creativity to build and test our ideas. This activity taught us innovation, problem-solving, and how to improve a design through trial and error.</p>
+    <div class="project-images" style="justify-content: center;">
+      <div class="project-image-container">
+        <img src="https://drive.google.com/thumbnail?id=1w2qJZYLNcaKSCBaypucZcqOnmbqp24RC&sz=s800" alt="Egg Challenge" />
+        <div class="image-title">Egg Challenge</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:lovelianne.domingo@gmail.com">lovelianne.domingo@gmail.com</a>.</p>
+
+  <p class="extra-contact">Facebook: <a href="https://web.facebook.com/lovelianne.mateo" target="_blank" rel="noopener noreferrer">Love Lianne Mateo</a></p> 
+  <p class="extra-contact">Instagram: <a href="https://instagram.com/liaxna_vyn" target="_blank" rel="noopener noreferrer">liaxna_vyn</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Love Lianne M. Domingo. All rights reserved.</p>
+</footer>
+</body>
+</html>
